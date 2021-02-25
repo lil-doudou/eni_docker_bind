@@ -4,4 +4,4 @@ yum install bash-completion bind bind-utils
 
 cp /etc/docker_config/named.conf /etc/named.conf
 
-named -u named
+named -f -u named
